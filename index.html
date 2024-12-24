@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erode City Auto Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <marquee class="header">
+        <img src="./Auto logo.png" alt="logo"/>
+    </marquee>
+   
+    <main>
+        <section id="booking">
+            <img src="./Auto.png" alt="logo">
+            <h2>Book Your Ride</h2>
+            <form id="bookingForm">
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" required>
+                
+                <label for="dropoff">Dropoff Location:</label>
+                <input type="text" id="dropoff" name="dropoff" required>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="tracking">
+            <h2>Track Your Ride</h2>
+            <form id="trackingForm">
+                <label for="bookingId">Booking ID:</label>
+                <input type="text" id="bookingId" name="bookingId" required>
+                
+                <button type="submit">Track
